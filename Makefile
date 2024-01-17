@@ -6,8 +6,6 @@ DOCKER_COMPOSE		=	docker compose -f $(DOCKER_COMPOSE_PATH)
 
 DIR_SRC				=	srcs/
 
-VOL_PATH			=	/home/lboulatr/data/
-
 VOLUMES				=	$(WORDPRESS_VOLUME_PATH) $(MARIADB_VOLUME_PATH)
 
 include $(DIR_SRC).env

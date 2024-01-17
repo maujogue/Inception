@@ -17,7 +17,7 @@ RUN 	chmod +x wp-cli-2.7.0.phar
 RUN		chown -R root:root wp-cli-2.7.0.phar
 RUN 	mv wp-cli-2.7.0.phar /usr/local/bin/wp
 
-COPY 	conf/config.sh /var/
+COPY 	tools/config.sh /var/
 
 EXPOSE	9000
 
